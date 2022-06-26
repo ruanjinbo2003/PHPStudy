@@ -1,0 +1,23 @@
+<?php
+$str = "hello world!";
+$str1 = "你好!";
+$str2 = '你好!';
+echo $str;
+echo "<br />";
+echo $str1;
+echo "<br />";
+echo $str2;
+echo "<br />";
+$str3 = "abcd$str1";
+echo $str3;
+echo "<br />";
+$str4 = 'abcd$str1';
+echo $str4;
+echo "<br />";
+echo "=====================";
+echo "<br />";
+$str5 = "abcd'eff'";
+echo $str5;
+echo "<br />";
+$str6 = 'abcd"efg"';
+echo $str6;
