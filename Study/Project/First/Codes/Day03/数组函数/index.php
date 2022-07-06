@@ -102,62 +102,56 @@ print_r($arr);*/
 /*$arr = ["a","b","c","a","c","b","c","a","b","c"];
 $brr = array_count_values($arr);
 print_r($brr);*/
-/*$arr = ['5'=>"a",'4'=>"b",'7'=>"c",'8'=>"a",'9'=>"c",'3'=>"b"];
-$brr = array_values($arr);
-print_r($brr);*/
-/*$arr = [
-    ['name'=>'张三','age'=>18,'gender'=>'男'],
-    ['name'=>'李四','age'=>30,'gender'=>'女'],
-    ['name'=>'王五','age'=>33,'gender'=>'男'],
-    ['name'=>'赵六','age'=>28,'gender'=>'男'],
-    ['name'=>'田七','age'=>38,'gender'=>'女']
-];
-$brr = array_column($arr,"gender");
-sort($brr);
-print_r($brr);*/
-echo "------------------\n";
-//$input_array = array('a', 'b', 'c', 'd', 'e', 'f');
-//print_r(array_chunk($input_array, 5));
-//print_r(array_chunk($input_array, 2, true));
 
+$arr = ['name'=>"zhangsan","age"=>20,"sex"=>'男'];
+/*$brr = array_keys($arr);
+print_r($brr);*/
+/*$crr = array_values($arr);
+print_r($crr);*/
+
+/*$students = [
+    ["name"=>"张三","age"=>18,"sex"=>"男","score"=>98],
+    ["name"=>"李四","age"=>20,"sex"=>"女","score"=>96],
+    ["name"=>"王五","age"=>21,"sex"=>"男","score"=>95],
+    ["name"=>"赵六","age"=>20,"sex"=>"女","score"=>94],
+];
+$newArr = array_column($students,"score");
+print_r($newArr);*/
+
+
+/*$arr = [1,2,3,4,5,6];
+$brr = array_chunk($arr,3);
+print_r($brr);*/
+
+/*$arr = [1,2,3,4,"5",6,"7",8,"zhangsan","wangwu"];
 /**
- * 求奇数
+ * 给定一个值，判断是否是奇数，如果是，则返回
+ * @param $v
+ * @return mixed|void
  */
-$arr = [1,2,'3',4,"5",6,7,8,"zhangsan","8"];
-function filterString($v) {
-    if(gettype($v) == 'integer') {
+
+function odd($v) {
+    if(gettype($v)== 'integer' && $v % 2 != 0) {
         return $v;
     }
-    /*if($v != 3) {
-        return $v;
-    }*/
 }
-$brr = array_filter($arr,'filterString');
+$brr = array_filter($arr,'odd',1);
 print_r($brr);
 
-/*$a = array_fill(0, 3, "age");
-$b = array_fill(-2, 4, 'pear');
-//print_r($a);
-print_r($b);*/
-
-/*function cube($n)
-{
-    return ($n * $n * $n);
+/*$a = [1,2,3,4,5];
+function cube($n) {
+    return pow($n,4);  // return $n * $n * $n;
 }
-
-$a = [1, 2, 3, 4, 5];
-$b = array_map('cube', $a);
+$b = array_map('cube',$a);
 print_r($b);*/
 
-$base = array("orange", "banana", "apple", "raspberry");
-$replacements = array("pineapple", 3=>"cherry");
-$replacements2 = array(3 => "grape");
+/*$arr = array_fill(-10,19,0);
+print_r($arr);*/
 
-$basket = array_replace($base, $replacements,$replacements2);
-
-
-
-
-
+/*$a = ['红色','白色','绿色','粉色','青色'];
+$b = [-2=>'橙色','黄色'];
+$c = [5=>'绿色',6=>'蓝色',7=>'紫色'];
+$newArr = array_replace($a,$b,$c);
+print_r($newArr);*/
 
 
