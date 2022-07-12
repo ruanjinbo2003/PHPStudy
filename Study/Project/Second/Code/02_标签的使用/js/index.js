@@ -1,0 +1,1 @@
+document.write("欢迎学习javascript");

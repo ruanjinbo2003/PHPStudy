@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7596b899-0d84-46b3-8a02-621ddc31028c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/01_HTML基础/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_标签的使用/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_标签的使用/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02_标签的使用/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_html块级标签/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03_html块级标签/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_锚点链接及img标签/images/为你推荐.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_锚点链接及img标签/images/京东秒杀.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_锚点链接及img标签/images/特色优选.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_锚点链接及img标签/images/频道广场.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_锚点链接及img标签/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04_锚点链接及img标签/index4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_多媒体标签之audio标签/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_base标签/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_列表标签/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08_HTML简写方式/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Notes/01.HTML基础.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Notes/01.HTML基础.xmind" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BqP9Ob1y2HDxKawfBkj0m38cq6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/2023Project/PhpProject/PHPStudy/Study/Project/Second/Code/05_多媒体标签之audio标签/files",
+    "list.type.of.created.stylesheet": "CSS",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2023Project\PhpProject\PHPStudy\Study\Project\Second\Code\05_多媒体标签之audio标签\files" />
+      <recent name="E:\2023Project\PhpProject\PHPStudy\Study\Project\Second\Code\03_html块级标签\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\2023Project\PhpProject\PHPStudy\Study\Project\Second\Code\04_锚点链接及img标签" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7596b899-0d84-46b3-8a02-621ddc31028c" name="Changes" comment="" />
+      <created>1657630489551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657630489551</updated>
+      <workItem from="1657630490762" duration="10179000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
